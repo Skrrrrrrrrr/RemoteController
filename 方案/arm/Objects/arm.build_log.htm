@@ -1,0 +1,167 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: wy Aaron, wy, LIC=8VRJ7-EIBHJ-FWZ2N-YPAPW-G09QN-KVNA0
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.37.0.0
+Toolchain Path:  C:\App\Mdk\Keil\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.18
+Assembler:       Armasm.exe V6.18
+Linker/Locator:  ArmLink.exe V6.18
+Library Manager: ArmAr.exe V6.18
+Hex Converter:   FromElf.exe V6.18
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+C:\Users\Aaron\Desktop\Remote Control\arm\arm.uvprojx
+Project File Date:  06/12/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.18', folder: 'C:\App\Mdk\Keil\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+UIcode.cpp(2): warning: In file included from...
+./GuiLite.h(3293): warning: while loop has empty body [-Wempty-body]
+                        CORRECT(y_min, m_wave_bottom, m_wave_top);
+                                                                 ^
+./GuiLite.h(3293): note: put the semicolon on a separate line to silence this warning
+./GuiLite.h(3294): warning: while loop has empty body [-Wempty-body]
+                        CORRECT(y_max, m_wave_bottom, m_wave_top);
+                                                                 ^
+./GuiLite.h(3294): note: put the semicolon on a separate line to silence this warning
+./GuiLite.h(3357): warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+                register int width = rect.width();
+                ^~~~~~~~~
+./GuiLite.h(3358): warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+                register int top = rect.m_top;
+                ^~~~~~~~~
+./GuiLite.h(3359): warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+                register int left = rect.m_left;
+                ^~~~~~~~~
+./GuiLite.h(3373): warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+                register unsigned int* p_des = m_bg_fb;
+                ^~~~~~~~~
+6 warnings generated.
+compiling UIcode.cpp...
+linking...
+Program Size: Code=36876 RO-data=4176 RW-data=1692 ZI-data=19500  
+FromELF: creating hex file...
+".\Objects\arm.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.16.0.pack
+                Keil.STM32F4xx_DFP.2.16.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: Classic Version: 1.7.13
+   * Component: Common Version: 1.7.13
+   * Component: Cortex Version: 1.7.13
+   * Component: DMA Version: 1.7.13
+   * Component: GPIO Version: 1.7.13
+   * Component: PWR Version: 1.7.13
+   * Component: RCC Version: 1.7.13
+   * Component: SPI Version: 1.7.13
+   * Component: Common Version: 1.7.13
+   * Component: GPIO Version: 1.7.13
+   * Component: PWR Version: 1.7.13
+   * Component: RCC Version: 1.7.13
+   * Component: SPI Version: 1.7.13
+   * Component: TIM Version: 1.7.13
+   * Component: UTILS Version: 1.7.13
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F411CCUx
+  ./RTE/_Target_1
+  C:/App/Mdk/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/App/Mdk/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+  C:/App/Mdk/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc
+  C:/App/Mdk/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Device:STM32Cube Framework:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:STM32Cube Framework:Classic:1.7.13
+      Source file:   MDK/Templates/Src/stm32f4xx_hal_msp.c
+      Include file:  MDK/Templates/Inc/stm32f4xx_it.h
+      Source file:   MDK/Templates/Src/stm32f4xx_it.c
+      Include file:  MDK/Templates/Inc/main.h
+      Source file:   MDK/Templates/Src/main.c
+      Include file:  CMSIS/Driver/Config/RTE_Device.h
+      Include file:  MDK/Templates/Inc/stm32f4xx_hal_conf.h
+      Include file:  MDK/Templates_LL/Inc/main.h
+      Source file:   MDK/Templates_LL/Src/main.c
+
+   * Component: Keil::Device:STM32Cube HAL:Common:1.7.13
+      Include file:  Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex:1.7.13
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:DMA:1.7.13
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO:1.7.13
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+
+   * Component: Keil::Device:STM32Cube HAL:PWR:1.7.13
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+
+   * Component: Keil::Device:STM32Cube HAL:RCC:1.7.13
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:SPI:1.7.13
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+
+   * Component: Keil::Device:STM32Cube LL:Common:1.7.13
+
+   * Component: Keil::Device:STM32Cube LL:GPIO:1.7.13
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c
+
+   * Component: Keil::Device:STM32Cube LL:PWR:1.7.13
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c
+
+   * Component: Keil::Device:STM32Cube LL:RCC:1.7.13
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c
+
+   * Component: Keil::Device:STM32Cube LL:SPI:1.7.13
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c
+
+   * Component: Keil::Device:STM32Cube LL:TIM:1.7.13
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c
+
+   * Component: Keil::Device:STM32Cube LL:UTILS:1.7.13
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c
+
+   * Component: Keil::Device:Startup:2.6.3
+      Include file:  Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s
+      Source file:   MDK/Device/Source/ARM/STM32F411xx_OPT.s
+      Source file:   MDK/Device/Source/ARM/STM32F4xx_OTP.s
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

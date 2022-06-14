@@ -1,0 +1,102 @@
+T4240 000:164.037   SEGGER J-Link V7.64 Log File
+T4240 000:164.271   DLL Compiled: Apr  1 2022 16:04:43
+T4240 000:164.286   Logging started @ 2022-06-08 14:01
+T4240 000:164.299 - 164.306ms
+T4240 000:164.319 JLINK_SetWarnOutHandler(...)
+T4240 000:164.335 - 0.022ms
+T4240 000:164.351 JLINK_OpenEx(...)
+T4240 000:168.047   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T4240 000:168.655   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T4240 000:169.333   Decompressing FW timestamp took 600 us
+T4240 000:177.721   Hardware: V9.50
+T4240 000:177.779   S/N: 59524834
+T4240 000:177.800   OEM: SEGGER
+T4240 000:177.819   Feature(s): JFlash, GDB, RDI, FlashBP, FlashDL
+T4240 000:180.513   TELNET listener socket opened on port 19021
+T4240 000:180.774   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T4240 000:180.983   WEBSRV Webserver running on local port 19080
+T4240 000:197.223 - 32.906ms returns "O.K."
+T4240 000:197.293 JLINK_GetEmuCaps()
+T4240 000:197.307 - 0.021ms returns 0xB9FF7BBF
+T4240 000:197.330 JLINK_TIF_GetAvailable(...)
+T4240 000:197.688 - 0.374ms
+T4240 000:197.724 JLINK_SetErrorOutHandler(...)
+T4240 000:197.749 - 0.033ms
+T4240 000:197.800 JLINK_ExecCommand("ProjectFile = "C:\Users\Aaron\Desktop\Remote Control\arm\JLinkSettings.ini"", ...). 
+T4240 000:212.513 - 14.735ms returns 0x00
+T4240 000:212.558 JLINK_ExecCommand("Device = STM32F411CCUx", ...). 
+T4240 000:212.947   Device "STM32F411CC" selected.
+T4240 000:213.852 - 1.287ms returns 0x00
+T4240 000:213.876 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T4240 000:213.894 - 0.009ms returns 0x01
+T4240 000:213.911 JLINK_GetHardwareVersion()
+T4240 000:213.924 - 0.020ms returns 95000
+T4240 000:213.944 JLINK_GetDLLVersion()
+T4240 000:213.957 - 0.019ms returns 76400
+T4240 000:213.973 JLINK_GetOEMString(...)
+T4240 000:213.988 JLINK_GetFirmwareString(...)
+T4240 000:214.001 - 0.020ms
+T4240 000:214.020 JLINK_GetDLLVersion()
+T4240 000:214.033 - 0.040ms returns 76400
+T4240 000:214.071 JLINK_GetCompileDateTime()
+T4240 000:214.084 - 0.020ms
+T4240 000:214.102 JLINK_GetFirmwareString(...)
+T4240 000:214.116 - 0.020ms
+T4240 000:214.132 JLINK_GetHardwareVersion()
+T4240 000:214.146 - 0.020ms returns 95000
+T4240 000:214.162 JLINK_GetSN()
+T4240 000:214.176 - 0.020ms returns 59524834
+T4240 000:214.192 JLINK_GetOEMString(...)
+T4240 000:214.211 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T4240 000:216.063 - 1.872ms returns 0x00
+T4240 000:216.101 JLINK_HasError()
+T4240 000:216.132 JLINK_SetSpeed(1000)
+T4240 000:216.683 - 0.564ms
+T4240 000:217.112 JLINK_HasError()
+T4240 000:217.134 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T4240 000:217.148 - 0.021ms returns JLINKARM_RESET_TYPE_NORMAL
+T4240 000:217.164 JLINK_Reset()
+T4240 000:217.586   InitTarget() start
+T4240 000:217.613    J-Link Script File: Executing InitTarget()
+T4240 000:322.531   Can not attach to CPU. Trying connect under reset.
+T4240 000:478.553   Connecting to CPU via connect under reset failed.
+T4240 000:529.102   InitTarget() end
+T4240 000:592.113   InitTarget() start
+T4240 000:592.163    J-Link Script File: Executing InitTarget()
+T4240 000:697.558   Can not attach to CPU. Trying connect under reset.
+T4240 000:853.560   Connecting to CPU via connect under reset failed.
+T4240 000:905.123   InitTarget() end
+T4240 000:905.170 - 688.013ms
+T4240 000:905.201 JLINK_GetId()
+T4240 000:905.680   InitTarget() start
+T4240 000:905.717    J-Link Script File: Executing InitTarget()
+T4240 001:010.678   Can not attach to CPU. Trying connect under reset.
+T4240 001:166.313   Connecting to CPU via connect under reset failed.
+T4240 001:217.107   InitTarget() end
+T4240 001:280.113   InitTarget() start
+T4240 001:280.163    J-Link Script File: Executing InitTarget()
+T4240 001:384.573   Can not attach to CPU. Trying connect under reset.
+T4240 001:540.683   Connecting to CPU via connect under reset failed.
+T4240 001:592.116   InitTarget() end
+T4240 001:592.176 - 686.981ms returns 0x00000000
+T4240 001:592.215 JLINK_GetId()
+T4240 001:592.733   InitTarget() start
+T4240 001:592.777    J-Link Script File: Executing InitTarget()
+T4240 001:697.546   Can not attach to CPU. Trying connect under reset.
+T4240 001:853.288   Connecting to CPU via connect under reset failed.
+T4240 001:904.117   InitTarget() end
+T4240 001:967.110   InitTarget() start
+T4240 001:967.162    J-Link Script File: Executing InitTarget()
+T4240 002:072.318   Can not attach to CPU. Trying connect under reset.
+T4240 002:228.164   Connecting to CPU via connect under reset failed.
+T4240 002:279.109   InitTarget() end
+T4240 002:279.150 - 686.942ms returns 0x00000000
+T4240 002:284.524 JLINK_GetFirmwareString(...)
+T4240 002:284.553 - 0.035ms
+T46C8 010:127.529 Looking for J-Link GUI Server exe at: C:\App\Mdk\Keil\ARM\Segger\JLinkGUIServer.exe
+T46C8 010:128.310 Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T46C8 010:431.099 Failed to connect to J-Link GUI Server.
+T4240 014:040.709 JLINK_Close()
+T4240 014:068.133 - 27.452ms
+T4240 014:068.169   
+T4240 014:068.183   Closed
